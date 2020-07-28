@@ -1,5 +1,6 @@
 /**
  * 分离链接法
+ * 如果当前key下已经有值，则将该值转换成链表，并向链表中插入新值
  */
 
 import LinkedList from './LinkedList'
@@ -46,7 +47,9 @@ export default class HashTablePro1 {
   put(key: string, value: any) {
     let position = this.loseloseHashCode(key)
     if (this.table[position] == undefined) {
+      let oldVal = this.table[position]
       this.table[position] = new LinkedList()
+      this.table[position].put(new ValuePair(key, oldVal))
     }
     this.table[position].put(new ValuePair(key, value))
   }
