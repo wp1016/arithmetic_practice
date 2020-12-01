@@ -35,6 +35,11 @@ class BinarySearchTree {
     }
   }
 
+  /**
+   * 中序遍历
+   * @param node 
+   * @param callback 
+   */
   private inOrderTraverseNode(node: TreeNode, callback?: Function) {
     if (node !== null) {
       this.inOrderTraverseNode(node.left, callback)
@@ -42,7 +47,11 @@ class BinarySearchTree {
       this.inOrderTraverseNode(node.right, callback)
     }
   }
-
+  /**
+   * 前序遍历
+   * @param node 
+   * @param callback 
+   */
   private preOrderTraverseNode(node: TreeNode, callback?: Function) {
     if (node !== null) {
       callback && callback(node.key)
@@ -51,6 +60,11 @@ class BinarySearchTree {
     }
   }
 
+  /**
+   * 后序遍历
+   * @param node 
+   * @param callback 
+   */
   private postOrderTraverseNode(node: TreeNode, callback?: Function) {
     if (node !== null) {
       this.postOrderTraverseNode(node.left, callback)
