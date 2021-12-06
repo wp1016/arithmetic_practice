@@ -12,7 +12,7 @@
  }
 
  /**
-  * 快速排序
+  * 二分法实现快速排序
   * @param {*} array 
   */
  function quickSort(array) {

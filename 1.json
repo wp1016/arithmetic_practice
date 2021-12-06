@@ -1,0 +1,190 @@
+{
+  "traceId": "e87c6b162e703088de079c1653d0ef74",
+  "code": 0,
+  "attachments": {
+    "timestamp": "1612166718291"
+  },
+  "data": {
+    "updateDate": 1612022400000,
+    "title": "全国经营简报",
+    "upperSecs": [
+      {
+        "totalCnt": {
+          "createCnt": "626",
+          "openCnt": "3528"
+        },
+        "title": "阵地建设",
+        "sections": [
+          [
+            {
+              "showValue": "296",
+              "showName": "营业中"
+            },
+            {
+              "showValue": "8",
+              "showName": "在建"
+            }
+          ],
+          [
+            {
+              "showValue": "1,375",
+              "showName": "营业中"
+            },
+            {
+              "showValue": "250",
+              "showName": "在建"
+            }
+          ],
+          [
+            {
+              "showValue": "1,553",
+              "showName": "营业中"
+            },
+            {
+              "showValue": "237",
+              "showName": "在建"
+            }
+          ],
+          [
+            {
+              "showValue": "304",
+              "showName": "营业中"
+            },
+            {
+              "showValue": "131",
+              "showName": "在建"
+            }
+          ]
+        ],
+        "key": "stores"
+      },
+      {
+        "customerTotal": {
+          "total": "1968",
+          "curMonthCnt": "102"
+        },
+        "title": "客户概况",
+        "sections": [
+          [
+            {
+              "showValue": "36",
+              "showName": "蓝血"
+            },
+            {
+              "showValue": "86",
+              "showName": "金牌"
+            },
+            {
+              "showValue": "136",
+              "showName": "TOP"
+            },
+            {
+              "showValue": "376",
+              "showName": "其他"
+            }
+          ]
+        ],
+        "key": "customer"
+      },
+      {
+        "title": "手机销售（台）",
+        "sections": [
+          [
+            {
+              "showValue": "44,184",
+              "showName": "手机销量"
+            },
+            {
+              "showValue": "42,310",
+              "showName": "激活量"
+            }
+          ],
+          [
+            {
+              "showValue": "244,547",
+              "showName": "手机销量"
+            },
+            {
+              "showValue": "231,724",
+              "showName": "激活量"
+            }
+          ],
+          [
+            {
+              "showValue": "927,846",
+              "showName": "手机销量"
+            },
+            {
+              "showValue": "915,388",
+              "showName": "激活量"
+            }
+          ]
+        ],
+        "key": "sale"
+      },
+      {
+        "title": "手机店均产能（台）",
+        "sections": [
+          [
+            {
+              "showValue": "33",
+              "showName": "今日"
+            },
+            {
+              "showValue": "164",
+              "showName": "近７日"
+            },
+            {
+              "showValue": "650",
+              "showName": "近30日"
+            }
+          ],
+          [
+            {
+              "showValue": "17",
+              "showName": "今日"
+            },
+            {
+              "showValue": "97",
+              "showName": "近７日"
+            },
+            {
+              "showValue": "378",
+              "showName": "近30日"
+            }
+          ],
+          [
+            {
+              "showValue": "7",
+              "showName": "今日"
+            },
+            {
+              "showValue": "43",
+              "showName": "近７日"
+            },
+            {
+              "showValue": "164",
+              "showName": "近30日"
+            }
+          ],
+          [
+            {
+              "showValue": "4",
+              "showName": "今日"
+            },
+            {
+              "showValue": "26",
+              "showName": "近７日"
+            },
+            {
+              "showValue": "88",
+              "showName": "近30日"
+            }
+          ]
+        ],
+        "key": "capacity"
+      }
+    ]
+  },
+  "message": "ok"
+}
